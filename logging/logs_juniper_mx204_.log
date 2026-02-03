@@ -1,0 +1,1048 @@
+2026-01-30 06:40:59,093 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:40:59.093890
+2026-01-30 06:40:59,094 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:40:59,538 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:40:59,952 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 06:41:15,867 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: 
+
+Pattern not detected: 'scp\\ EFFPER01:/tmp/junos_running\\.conf\\ \\./' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+2026-01-30 06:41:15,935 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:41:15,935 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:41:15.935466
+2026-01-30 06:41:31,967 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:41:31.967255
+2026-01-30 06:41:31,967 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:41:32,520 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:41:32,933 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 06:41:32,935 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:41:33,480 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:41:33,480 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 06:41:33,589 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 06:41:33,672 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 06:41:33,756 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 06:41:33,840 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 06:41:33,922 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 06:41:34,004 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 06:41:34,197 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 06:41:34,355 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 06:41:34,562 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 06:41:34,644 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 06:41:34,728 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 06:41:34,810 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 06:41:34,893 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 06:41:35,105 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 06:41:35,187 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 06:41:35,296 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 06:41:35,379 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 06:41:35,462 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 06:41:35,545 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 06:41:35,640 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:41:35,641 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 06:41:35,643 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 06:41:35,643 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: PreCheck.deviceLog() missing 1 required positional argument: 'device_name'
+2026-01-30 06:41:35,654 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:41:35,655 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:41:35.655060
+2026-01-30 06:45:05,104 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:45:05.104845
+2026-01-30 06:45:05,105 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:45:05,700 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:45:06,128 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 06:45:06,131 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:45:06,694 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:45:06,695 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 06:45:06,804 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 06:45:06,888 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 06:45:06,970 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 06:45:07,052 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 06:45:07,135 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 06:45:07,218 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 06:45:07,409 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 06:45:07,574 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 06:45:07,765 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 06:45:07,848 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 06:45:07,931 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 06:45:08,013 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 06:45:08,096 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 06:45:08,307 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 06:45:08,390 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 06:45:08,498 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 06:45:08,580 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 06:45:08,663 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 06:45:08,746 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 06:45:08,839 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:45:08,840 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 06:45:08,841 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 06:45:08,842 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:45:08,853 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:45:08,853 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:45:08.853734
+2026-01-30 06:45:59,926 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:45:59.926429
+2026-01-30 06:45:59,926 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:46:00,472 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:46:00,894 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 06:46:00,897 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:46:01,468 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:46:01,468 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 06:46:01,579 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 06:46:01,665 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 06:46:01,751 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 06:46:01,837 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 06:46:01,922 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 06:46:02,008 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 06:46:02,206 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 06:46:02,378 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 06:46:02,593 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 06:46:02,680 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 06:46:02,765 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 06:46:02,850 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 06:46:02,936 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 06:46:03,148 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 06:46:03,230 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 06:46:03,338 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 06:46:03,421 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 06:46:03,504 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 06:46:03,587 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 06:46:03,681 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:46:03,682 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 06:46:03,685 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 06:46:03,686 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:46:03,698 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:46:03,698 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:46:03.698426
+2026-01-30 06:47:05,825 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:47:05.825710
+2026-01-30 06:47:05,826 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:47:06,389 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:47:06,808 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 06:47:06,811 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:47:07,370 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:47:07,370 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 06:47:07,480 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 06:47:07,565 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 06:47:07,649 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 06:47:07,733 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 06:47:07,818 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 06:47:07,901 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 06:47:08,094 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 06:47:08,260 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 06:47:08,452 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 06:47:08,537 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 06:47:08,621 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 06:47:08,705 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 06:47:08,788 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 06:47:09,002 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 06:47:09,085 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 06:47:09,195 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 06:47:09,279 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 06:47:09,363 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 06:47:09,446 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 06:47:09,542 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:47:09,544 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 06:47:09,555 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 06:47:09,556 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:47:09,567 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:47:09,568 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:47:09.568231
+2026-01-30 06:48:38,289 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:48:38.289523
+2026-01-30 06:48:38,289 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:48:38,840 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:48:38,841 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:48:38,852 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:48:38,853 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:48:38.853049
+2026-01-30 06:49:39,543 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:49:39.542985
+2026-01-30 06:49:39,543 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:49:40,093 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:49:40,094 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:49:40,106 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:49:40,107 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:49:40.106982
+2026-01-30 06:49:57,359 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:49:57.359195
+2026-01-30 06:49:57,359 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:49:57,806 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:49:57,806 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:49:57,818 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:49:57,818 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:49:57.818451
+2026-01-30 06:51:05,966 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:51:05.966465
+2026-01-30 06:51:05,966 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:51:06,523 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:51:06,523 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:51:06,535 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:51:06,535 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:51:06.535411
+2026-01-30 06:52:35,511 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:52:35.511073
+2026-01-30 06:52:35,511 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:52:36,064 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:52:36,065 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:52:36,076 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:52:36,076 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:52:36.076733
+2026-01-30 06:54:56,576 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:54:56.576481
+2026-01-30 06:54:56,577 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:54:57,132 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:54:57,132 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:54:57,144 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:54:57,144 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:54:57.144261
+2026-01-30 06:57:49,772 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:57:49.772370
+2026-01-30 06:57:49,772 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:57:50,423 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:57:50,423 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 06:57:50,435 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:57:50,435 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:57:50.435618
+2026-01-30 06:59:48,893 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 06:59:48.893879
+2026-01-30 06:59:48,894 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 06:59:49,446 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 06:59:49,446 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: name 'conn' is not defined
+2026-01-30 06:59:49,458 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 06:59:49,458 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 06:59:49.458405
+2026-01-30 07:00:48,161 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:00:48.161398
+2026-01-30 07:00:48,161 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:00:48,722 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:00:48,722 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 07:00:48,734 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:00:48,734 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:00:48.734441
+2026-01-30 07:01:19,737 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:01:19.737889
+2026-01-30 07:01:19,738 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:01:20,306 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:01:20,306 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 07:01:20,318 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:01:20,318 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:01:20.318809
+2026-01-30 07:02:08,492 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:02:08.492085
+2026-01-30 07:02:08,493 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:02:08,957 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:02:08,958 - ERROR - lib.utilities - 10.80.71.55 — Precheck failed: Unsupported vendor: juniper
+2026-01-30 07:02:08,969 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:02:08,969 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:02:08.969418
+2026-01-30 07:02:36,820 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:02:36.820088
+2026-01-30 07:02:36,820 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:02:37,386 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:02:37,816 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 07:02:37,829 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:02:37,829 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:02:37.829402
+2026-01-30 07:03:55,174 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:03:55.174172
+2026-01-30 07:03:55,174 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:03:55,739 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:03:56,158 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 07:03:56,172 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:03:56,739 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:03:56,739 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 07:03:56,849 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 07:03:56,933 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 07:03:57,017 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 07:03:57,101 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 07:03:57,184 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 07:03:57,267 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 07:03:57,462 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 07:03:57,631 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 07:03:57,825 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 07:03:57,909 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 07:03:57,993 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 07:03:58,077 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 07:03:58,160 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 07:03:58,374 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 07:03:58,458 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 07:03:58,567 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 07:03:58,651 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 07:03:58,735 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 07:03:58,818 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 07:03:58,915 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:03:58,916 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 07:03:58,929 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 07:03:58,940 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:03:58,941 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:03:58.941228
+2026-01-30 07:04:19,624 - INFO - lib.utilities - 10.80.71.55 — Prechecks started at 2026-01-30 07:04:19.624165
+2026-01-30 07:04:19,624 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:04:20,144 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:04:20,531 - INFO - lib.utilities - current version :Hostname: EFFPER01
+Model: mx204
+Junos: 23.4R2-S6.9
+JUNOS OS Kernel 64-bit  [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS libs [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS time zone information [20250524.8b60e66_builder_stable_12_234]
+JUNOS network stack and utilities [20251112.130809_builder_junos_234_r2_s6]
+JUNOS libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS libs compat32 [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS 32-bit compatibility [20250524.8b60e66_builder_stable_12_234]
+JUNOS libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS sflow mx [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py extensions [20251112.130809_builder_junos_234_r2_s6]
+JUNOS py base [20251112.130809_builder_junos_234_r2_s6]
+JUNOS OS vmguest [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS package [20250303.174934_builder_main]
+JUNOS OS network modules [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS crypto [20250524.8b60e66_builder_stable_12_234]
+JUNOS OS boot-ve files [20250524.8b60e66_builder_stable_12_234]
+JUNOS na telemetry [23.4R2-S6.9]
+JUNOS vmguest  [20251112.130809_builder_junos_234_r2_s6]
+JUNOS vmguest (MTX) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS full sysmond [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs compat32 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx runtime [20251112.130809_builder_junos_234_r2_s6]
+JUNOS RPD Telemetry Application [23.4R2-S6.9]
+JUNOS python routing scripts for consistency check in RIB/FIB/PFE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-basic [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing mpls-oam-advanced [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing lsys [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-internal [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing controller-external [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing 32-bit Compatible Version [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Routing aggregated [20251112.130809_builder_junos_234_r2_s6]
+Redis [20251112.130809_builder_junos_234_r2_s6]
+JUNOS probe utility [20251112.130809_builder_junos_234_r2_s6]
+JUNOS common platform support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Openconfig [23.4R2-S6.9]
+JUNOS mtx network modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx modules [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx libs [20251112.130809_builder_junos_234_r2_s6]
+JUNOS L2 RSI Scripts [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SQL Sync Daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mtx Data Plane Crypto Support [20251112.130809_builder_junos_234_r2_s6]
+JUNOS daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS mx daemons [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Broadband Edge User Plane Apps [23.4R2-S6.9]
+Junos Remote Attestation package [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS appidd-mx application-identification daemon [20251112.130809_builder_junos_234_r2_s6]
+JUNOS TPM2 [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services URL Filter package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TLB Service PIC package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Telemetry [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services TCP-LOG [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SSL [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services SOFTWIRE [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Stateful Firewall [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RTCOM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services RPM [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services PCEF package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services NAT [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Mobile Subscriber Service Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services MobileNext Software package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Logging Report Framework package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services LL-PDF Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Jflow Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Deep Packet Inspection package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IPSec [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services IDS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS IDP Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services HTTP Content Management package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services DNS Filter package (i386) [20251112.130809_builder_junos_234_r2_s6] 
+JUNOS Services Crypto [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Captive Portal and Content Delivery Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services COS [20251112.130809_builder_junos_234_r2_s6]
+JUNOS AppId Services [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services Application Level Gateways [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Services AACL Container package [20251112.130809_builder_junos_234_r2_s6]
+JUNOS SDN Software Suite [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Extension Toolkit [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Phone-home [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (aft) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Packet Forwarding Engine Support (MX Common) [20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS Juniper Malware Removal Tool (JMRT) Test [1.0.0+20251112.130809_builder_junos_234_r2_s6]
+JUNOS J-Insight [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jfirmware [20250925.073009_builder_junos_234_r2_s6]
+JUNOS Online Documentation [20251112.130809_builder_junos_234_r2_s6]
+JUNOS jail runtime [20250524.8b60e66_builder_stable_12_234]
+JUNOS dsa [20251112.130809_builder_junos_234_r2_s6]
+
+2026-01-30 07:04:20,534 - INFO - lib.utilities - Connecting to 10.80.71.55 using Netmiko...
+2026-01-30 07:04:21,055 - INFO - lib.utilities - Login Successful to {host}
+2026-01-30 07:04:21,055 - INFO - lib.utilities - 10.80.71.55: Executing: 'show arp no-resolve | no-more'
+2026-01-30 07:04:21,163 - INFO - lib.utilities - 10.80.71.55: Executing: 'show vrrp summary | no-more'
+2026-01-30 07:04:21,247 - INFO - lib.utilities - 10.80.71.55: Executing: 'show lldp neighbors | no-more'
+2026-01-30 07:04:21,330 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bfd session | no-more'
+2026-01-30 07:04:21,413 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp neighbor | no-more'
+2026-01-30 07:04:21,496 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | no-more'
+2026-01-30 07:04:21,579 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.0 | no-more'
+2026-01-30 07:04:21,771 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table inet.3 | no-more'
+2026-01-30 07:04:21,935 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route table mpls.0 | no-more'
+2026-01-30 07:04:22,125 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls interface | no-more'
+2026-01-30 07:04:22,208 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp | no-more'
+2026-01-30 07:04:22,291 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp p2mp | no-more'
+2026-01-30 07:04:22,374 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp summary | no-more'
+2026-01-30 07:04:22,457 - INFO - lib.utilities - 10.80.71.55: Executing: 'show bgp neighbor | no-more'
+2026-01-30 07:04:22,668 - INFO - lib.utilities - 10.80.71.55: Executing: 'show isis adjacency extensive | no-more'
+2026-01-30 07:04:22,750 - INFO - lib.utilities - 10.80.71.55: Executing: 'show route summary | no-more'
+2026-01-30 07:04:22,858 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session | match DN | no-more'
+2026-01-30 07:04:22,940 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | match Dn | no-more'
+2026-01-30 07:04:23,023 - INFO - lib.utilities - 10.80.71.55: Executing: 'show rsvp session'
+2026-01-30 07:04:23,106 - INFO - lib.utilities - 10.80.71.55: Executing: 'show mpls lsp unidirectional | no-more'
+2026-01-30 07:04:23,199 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:04:23,200 - INFO - lib.utilities - Writing to JSON file ...
+2026-01-30 07:04:23,201 - INFO - lib.utilities - JSON file written successfully: /home/saketh/upgrade/precheck_jsons/juniper_mx80_.json
+2026-01-30 07:04:23,213 - INFO - lib.utilities - Logout successful from 10.80.71.55
+2026-01-30 07:04:23,213 - INFO - lib.utilities - 10.80.71.55 — Prechecks completed at 2026-01-30 07:04:23.213849

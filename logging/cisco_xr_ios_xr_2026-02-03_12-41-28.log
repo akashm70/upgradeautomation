@@ -1,0 +1,5 @@
+2026-02-03_12:41:28 - INFO - 192.168.0.253 — Prechecks started at 2026-02-03 12:41:28.827062
+2026-02-03_12:41:29 - INFO - Connected to device
+2026-02-03_12:41:29 - ERROR - 192.168.0.253: Show version failed: 'PreCheck' object has no attribute 'vendor'
+2026-02-03_12:41:29 - ERROR - 192.168.0.253 — Precheck failed: 'PreCheck' object has no attribute 'vendor'
+2026-02-03_12:41:29 - INFO - 192.168.0.253 — Prechecks completed at 2026-02-03 12:41:29.828604

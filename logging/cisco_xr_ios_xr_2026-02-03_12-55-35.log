@@ -1,0 +1,7 @@
+2026-02-03_12:55:35 - INFO - 192.168.0.253 — Prechecks started at 2026-02-03 12:55:35.979409
+2026-02-03_12:55:37 - INFO - Connected to device
+2026-02-03_12:55:37 - INFO - 192.168.0.253: Executing 'show version'
+2026-02-03_12:55:38 - INFO - 192.168.0.253: Version information retrieved
+2026-02-03_12:55:38 - ERROR - 192.168.0.253: Show version failed: name 'session_logs_path' is not defined
+2026-02-03_12:55:38 - ERROR - 192.168.0.253 — Precheck failed: name 'session_logs_path' is not defined
+2026-02-03_12:55:38 - INFO - 192.168.0.253 — Prechecks completed at 2026-02-03 12:55:38.591604

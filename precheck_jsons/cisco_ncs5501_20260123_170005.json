@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "timestamp": "20260123_170005"
+  },
+  "commands": {
+    "show_inventory": [
+      {
+        "NAME": "Chassis",
+        "DESCR": "12008/GRP chassis",
+        "PID": "GSR8/40",
+        "VID": "V01",
+        "SN": "63915640"
+      },
+      {
+        "NAME": "slot 0",
+        "DESCR": "GRP",
+        "PID": "GRP-B",
+        "VID": "V01",
+        "SN": "CAB021300R5"
+      },
+      {
+        "NAME": "slot 1",
+        "DESCR": "4 port ATM OC3 multimode",
+        "PID": "4OC3/ATM-MM-SC",
+        "VID": "V01",
+        "SN": "CAB04036GT1"
+      },
+      {
+        "NAME": "slot 3",
+        "DESCR": "4 port 0C3 POS multimode",
+        "PID": "LC-4OC3/POS-MM",
+        "VID": "V01",
+        "SN": "CAB014900GU"
+      },
+      {
+        "NAME": "slot 5",
+        "DESCR": "1 port Gigabit Ethernet",
+        "PID": "GE-GBIC-SC-B",
+        "VID": "V01",
+        "SN": "CAB034251NX"
+      },
+      {
+        "NAME": "slot 7",
+        "DESCR": "GRP",
+        "PID": "GRP-B",
+        "VID": "V01",
+        "SN": "CAB0428AN4O"
+      },
+      {
+        "NAME": "slot 16",
+        "DESCR": "GSR 12008 Clock Scheduler Card",
+        "PID": "GSR8-CSC/ALRM",
+        "VID": "V01",
+        "SN": "CAB0429AUYH"
+      },
+      {
+        "NAME": "sfslot 1",
+        "DESCR": "GSR 12008 Switch Fabric Card",
+        "PID": "GSR8-SFC",
+        "VID": "V01",
+        "SN": "CAB0428ALOS"
+      },
+      {
+        "NAME": "sfslot 2",
+        "DESCR": "GSR 12008 Switch Fabric Card",
+        "PID": "GSR8-SFC",
+        "VID": "V01",
+        "SN": "CAB0429AU0M"
+      },
+      {
+        "NAME": "sfslot 3",
+        "DESCR": "GSR 12008 Switch Fabric Card",
+        "PID": "GSR8-SFC",
+        "VID": "V01",
+        "SN": "CAB0429ARD7"
+      },
+      {
+        "NAME": "PSslot 1",
+        "DESCR": "GSR 12008 AC Power Supply",
+        "PID": "FWR-GSR8-AC-B",
+        "VID": "V01",
+        "SN": "CAB041999CW"
+      }
+    ],
+    "show_install_active_summary": [
+      {
+        "AcivePackages": 4,
+        "Packages": [
+          "xr-bgp-admin-1.2.3",
+          "xr-ipsla-7.5.2v1.0.0-1.dfdfd.admin",
+          "xr-is-is-7.5.2v1.0.0-1.fjdks.stadard.admin",
+          "xr-lldp-7.5.2v1.0.0-1.dfkd.admin"
+        ]
+      }
+    ],
+    "show_platform": [
+      {
+        "Node": "0/1/CPU0",
+        "Type": "NC55-36X100G-A-SE",
+        "State": "IOS XR RUN",
+        "ConfigState": "NSHUT"
+      },
+      {
+        "Node": "0/1/NPU0",
+        "Type": "Slice",
+        "State": "UP",
+        "ConfigState": null
+      },
+      {
+        "Node": "0/1/NPU1",
+        "Type": "Slice",
+        "State": "UP",
+        "ConfigState": null
+      },
+      {
+        "Node": "0/1/NPU2",
+        "Type": "Slice",
+        "State": "UP",
+        "ConfigState": null
+      },
+      {
+        "Node": "0/1/NPU3",
+        "Type": "Slice",
+        "State": "UP",
+        "ConfigState": null
+      },
+      {
+        "Node": "0/2/CPU0",
+        "Type": "NC55-36X100G",
+        "State": "IOS XR RUN",
+        "ConfigState": "NSHUT"
+      }
+    ],
+    "show_install_committed_summary": [
+      {
+        "CommittedPackages": 28,
+        "Packages": [
+          "ncs5500-xr-6.3.15",
+          "ncs5500-mcast-2.1.0.0-r6315",
+          "ncs5500-mpls-2.1.0.0-r6315",
+          "ncs5500-mgbl-4.0.0.0-r6315",
+          "ncs5500-mpls-te-rsvp-2.2.0.0-r6315",
+          "ncs5500-isis-1.3.0.0-r6315",
+          "ncs5500-k9sec-4.1.0.0-r6315",
+          "ncs5500-infra-4.1.0.4-r6315.CSCvi54033",
+          "ncs5500-common-pd-fib-1.1.0.1-r6315.CSCvi05806",
+          "ncs5500-iosxr-fwding-5.0.0.4-r6315.CSCvi05806",
+          "ncs5500-dpa-3.0.0.6-r6315.CSCvi05806",
+          "ncs5500-dpa-fwding-4.1.0.4-r6315.CSCvi05806",
+          "ncs5500-dpa-3.0.0.8-r6315.CSCvh75088"
+        ]
+      }
+    ],
+    "show_hw_module_fpd": [
+      {
+        "AutoUpgrade": "Enabled",
+        "FPDs": [
+          {
+            "Location": "0/2",
+            "CardType": "NC55-36X100G-A-SE",
+            "HWver": "0.303",
+            "FPDdevice": "MIFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.03,
+              "Programd": 0.03
+            }
+          },
+          {
+            "Location": "0/2",
+            "CardType": "NC55-36X100G-A-SE",
+            "HWver": "0.303",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.14,
+              "Programd": 0.14
+            }
+          },
+          {
+            "Location": "0/2",
+            "CardType": "NC55-36X100G-A-SE",
+            "HWver": "0.303",
+            "FPDdevice": "DBFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.14,
+              "Programd": 0.14
+            }
+          },
+          {
+            "Location": "0/2",
+            "CardType": "NC55-36X100G-A-SE",
+            "HWver": "0.303",
+            "FPDdevice": "IOFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.21,
+              "Programd": 0.21
+            }
+          },
+          {
+            "Location": "0/2",
+            "CardType": "NC55-36X100G-A-SE",
+            "HWver": "0.303",
+            "FPDdevice": "SATA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 5.0,
+              "Programd": 5.0
+            }
+          },
+          {
+            "Location": "0/RP0",
+            "CardType": "NC55-RP",
+            "HWver": "1.1",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 9.3,
+              "Programd": 9.3
+            }
+          },
+          {
+            "Location": "0/RP0",
+            "CardType": "NC55-RP",
+            "HWver": "1.1",
+            "FPDdevice": "IOFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.09,
+              "Programd": 0.09
+            }
+          },
+          {
+            "Location": "0/RP0",
+            "CardType": "NC55-RP",
+            "HWver": "1.1",
+            "FPDdevice": "SATA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 6.0,
+              "Programd": 6.0
+            }
+          },
+          {
+            "Location": "0/RP1",
+            "CardType": "NC55-RP",
+            "HWver": "1.1",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 9.3,
+              "Programd": 9.3
+            }
+          },
+          {
+            "Location": "0/RP1",
+            "CardType": "NC55-RP",
+            "HWver": "1.1",
+            "FPDdevice": "IOFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.09,
+              "Programd": 0.09
+            }
+          },
+          {
+            "Location": "0/FC0",
+            "CardType": "NC55-5508-FC",
+            "HWver": "1.0",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 1.74,
+              "Programd": 1.74
+            }
+          },
+          {
+            "Location": "0/FC0",
+            "CardType": "NC55-5508-FC",
+            "HWver": "1.0",
+            "FPDdevice": "IOFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.16,
+              "Programd": 0.16
+            }
+          },
+          {
+            "Location": "0/FC1",
+            "CardType": "NC55-5508-FC",
+            "HWver": "1.0",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 1.74,
+              "Programd": 1.74
+            }
+          },
+          {
+            "Location": "0/FC1",
+            "CardType": "NC55-5508-FC",
+            "HWver": "1.0",
+            "FPDdevice": "IOFPGA",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 0.16,
+              "Programd": 0.16
+            }
+          },
+          {
+            "Location": "0/FC2",
+            "CardType": "NC55-5508-FC",
+            "HWver": "1.0",
+            "FPDdevice": "Bootloader",
+            "ATRstatus": "CURRENT",
+            "FPDVersions": {
+              "Running": 1.74,
+              "Programd": 1.74
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

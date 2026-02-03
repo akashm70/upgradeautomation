@@ -1,0 +1,24 @@
+2026-02-03_12:30:59 - INFO - 192.168.0.253 — Prechecks started at 2026-02-03 12:30:59.412700
+2026-02-03_12:30:59 - ERROR - 192.168.0.253: Show version failed: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_xr 192.168.0.253:22
+
+
+Authentication failed.
+2026-02-03_12:30:59 - ERROR - 192.168.0.253 — Precheck failed: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_xr 192.168.0.253:22
+
+
+Authentication failed.
+2026-02-03_12:30:59 - INFO - 192.168.0.253 — Prechecks completed at 2026-02-03 12:30:59.680502

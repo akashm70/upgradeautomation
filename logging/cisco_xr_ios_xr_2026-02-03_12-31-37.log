@@ -1,0 +1,5 @@
+2026-02-03_12:31:37 - INFO - 192.168.0.253 — Prechecks started at 2026-02-03 12:31:37.493466
+2026-02-03_12:31:38 - ERROR - Unsupported vendor: cisco_xr
+2026-02-03_12:31:38 - ERROR - 192.168.0.253: Show version failed: Unsupported vendor: cisco_xr
+2026-02-03_12:31:38 - ERROR - 192.168.0.253 — Precheck failed: Unsupported vendor: cisco_xr
+2026-02-03_12:31:38 - INFO - 192.168.0.253 — Prechecks completed at 2026-02-03 12:31:38.375400

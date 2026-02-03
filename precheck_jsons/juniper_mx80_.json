@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "timestamp": "",
+    "vendor": "juniper",
+    "model": "mx80"
+  },
+  "commands": {
+    "show_arp": {
+      "entries": [
+        {
+          "mac_address": "ca:fe:6a:82:88:53",
+          "ip_address": "10.0.0.176",
+          "interface": "lt-0/0/0.12",
+          "flags": "none"
+        },
+        {
+          "mac_address": "ca:fe:6a:82:88:54",
+          "ip_address": "10.0.0.177",
+          "interface": "lt-0/0/0.11",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.11.2",
+          "interface": "ae0.111",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.101.2",
+          "interface": "ae0.101",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.102.2",
+          "interface": "ae0.102",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.104.2",
+          "interface": "ae0.104",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.105.2",
+          "interface": "ae0.105",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.112.2",
+          "interface": "ae0.112",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.121.2",
+          "interface": "ae0.121",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.122.2",
+          "interface": "ae0.122",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.123.2",
+          "interface": "ae0.123",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.124.2",
+          "interface": "ae0.124",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.125.2",
+          "interface": "ae0.125",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.126.2",
+          "interface": "ae0.126",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.127.2",
+          "interface": "ae0.127",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.128.2",
+          "interface": "ae0.128",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.129.2",
+          "interface": "ae0.129",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.130.2",
+          "interface": "ae0.130",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.201.2",
+          "interface": "ae0.201",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.202.2",
+          "interface": "ae0.202",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.211.6",
+          "interface": "ae0.211",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.212.6",
+          "interface": "ae0.212",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.214.1",
+          "interface": "ae0.412",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.10.214.2",
+          "interface": "ae0.413",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.31.1.2",
+          "interface": "ae0.313",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "10.31.2.2",
+          "interface": "ae0.312",
+          "flags": "none"
+        },
+        {
+          "mac_address": "94:33:d8:ae:3b:03",
+          "ip_address": "10.80.70.1",
+          "interface": "fxp0.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "ec:38:73:d6:f7:81",
+          "ip_address": "10.80.70.5",
+          "interface": "fxp0.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "98:fa:9b:44:fe:e7",
+          "ip_address": "10.80.70.9",
+          "interface": "fxp0.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "ca:fe:6a:82:88:53",
+          "ip_address": "66.1.0.176",
+          "interface": "lt-0/0/0.177",
+          "flags": "none"
+        },
+        {
+          "mac_address": "ca:fe:6a:82:88:54",
+          "ip_address": "66.1.0.177",
+          "interface": "lt-0/0/0.176",
+          "flags": "none"
+        },
+        {
+          "mac_address": "80:71:1f:75:02:84",
+          "ip_address": "109.74.16.85",
+          "interface": "xe-0/1/4.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "80:71:1f:76:ea:81",
+          "ip_address": "109.74.16.90",
+          "interface": "xe-0/1/5.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "fe:54:00:e0:46:08",
+          "ip_address": "128.0.0.16",
+          "interface": "em3.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "fe:54:00:e0:46:08",
+          "ip_address": "128.0.0.101",
+          "interface": "em3.0",
+          "flags": "none"
+        },
+        {
+          "mac_address": "c8:fe:6a:82:88:62",
+          "ip_address": "169.254.152.185",
+          "interface": "xe-0/0/3:2.100",
+          "flags": "none"
+        },
+        {
+          "mac_address": "c8:fe:6a:82:88:61",
+          "ip_address": "169.254.152.186",
+          "interface": "xe-0/0/3:3.100",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "172.16.172.2",
+          "interface": "ae0.172",
+          "flags": "none"
+        },
+        {
+          "mac_address": "1c:9c:8c:f8:6c:40",
+          "ip_address": "172.16.173.2",
+          "interface": "ae0.173",
+          "flags": "none"
+        },
+        {
+          "mac_address": "fe:54:00:59:4c:e7",
+          "ip_address": "192.168.1.2",
+          "interface": "em2.32768",
+          "flags": "none"
+        },
+        {
+          "mac_address": "c8:fe:6a:82:88:5f",
+          "ip_address": "213.86.204.109",
+          "interface": "xe-0/0/3:1.3400",
+          "flags": "none"
+        },
+        {
+          "mac_address": "c8:fe:6a:82:88:60",
+          "ip_address": "213.86.204.110",
+          "interface": "xe-0/0/3:0.3400",
+          "flags": "none"
+        }
+      ],
+      "total_entries": 42
+    }
+  }
+}

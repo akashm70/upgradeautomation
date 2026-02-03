@@ -1,0 +1,39 @@
+devices: 
+  - host: "192.168.0.253"
+    vendor: "cisco" 
+    model: 'ios_xr'
+    device_type: "cisco_xr"
+    expected_os: 22.2R2-S5
+    min_disk_gb: 5
+    username: "admin" 
+    password: "admin" 
+    image: junos-os-22.2R2-S5.bin
+    remote_backup_server: sftp://backup@10.10.20.20/backups/
+    cleanup_files:   
+     - list of files
+  
+  # - ip: 10.10.10.2
+  #   vendor: cisco
+  #   model: ncx5501
+  #   device_type: ios_xr
+  #   expected_os: 7.9.1
+  #   min_disk_gb: 20
+  #   username: admin
+  #   password: cisco123
+  #   image: ncs5501-iosxr-7.9.2.iso
+  #   remote_backup_server: sftp://backup@10.10.20.20/cisco_backups/
+  #   cleanup_files:
+  #       - list of files
+  
+  # - host: 172.20.6.216
+  #   vendor: unknown
+  #   model: unknown
+  #   device_type: linux
+  #   expected_os: unknown
+  #   min_disk_gb: unknown
+  #   username: dheer
+  #   password: jnjnuh
+  #   image: unknown
+  #   remote_backup_server: unknown
+  #   cleanup_files: []
+  #   fast_cli: False
